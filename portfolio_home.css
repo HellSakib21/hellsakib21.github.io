@@ -1,0 +1,48 @@
+*{
+    background-color: rgb(241, 231, 217);
+}
+/* MENU */
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+.Menu {
+    /* for menu, we need to mention all attributes inside that division */
+    
+    /* background of the whole menu */
+    overflow: hidden;
+    /* over-write anything */
+}
+
+.Menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* removes bullet/numbering of list */
+
+}
+
+.Menu ul li {}
+
+.Menu ul li a {
+    font-family:'Roboto', sans-serif; 
+    float: left;
+    text-decoration: none;
+    /* removes the underline of hypertext of list */
+    
+    /* top left bottom right */
+    color: black;
+    font-size: 18px;
+
+}
+
+.Menu ul li a:hover {
+    color: peru;
+    /* hovering text */
+    
+    /* hovering background */
+}
+.mainbody{
+
+}
