@@ -25,7 +25,6 @@ body {
 
 header {
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 10;
@@ -120,7 +119,18 @@ nav ul li a:hover {
     margin-bottom: 40px;
     text-align: justify;
 }
-
+.column1 {
+    float: left;
+}
+    
+/* Set width length for the left, right and middle columns */
+.left1 {
+    width: 30%;
+}
+    
+.right1 {
+    width: 70%;
+}
 #education {
     background-color: rgb(247, 238, 227);
     padding: 100px 0;
